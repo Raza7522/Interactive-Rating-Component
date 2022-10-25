@@ -131,23 +131,28 @@ body {
     opacity: 0;
 }
 
-.result {
+.thank-you-card .result {
     background-color: hsl(213, 7%, 24%);
-    padding: 10px 20px;
+    padding: 5px 20px;
     border-radius: 25px;
-    color: var(--Orange-color);
     font-weight: 400;
     margin-bottom: 0%;
 }
 
-.thank-you-card h1 {
+.thank-you-card .thanks{
     font-weight: 500;
     margin: 10px;
+    color: var(--White-color);
+    font-size: 2rem;
 }
 
 .thank-you-card p {
     color: var(--Light-Grey-color);
     line-height: 1.4;
+}
+
+.thank-you-card .result p{
+    color: var(--Orange-color);
 }
 
 .after {
